@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run lite",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,8 @@
   },
   "homepage": "https://github.com/parthpanchal5/tiffner#readme",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.1.3",
+    "node-sass": "^6.0.1"
   },
   "devDependencies": {
     "lite-server": "^2.6.1"
