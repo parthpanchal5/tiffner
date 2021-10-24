@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run lite",
-    "lite": "lite-server",
-    "scss": "node-sass -o css/ css/"
+    "gulp": "gulp watch"
   },
   "repository": {
     "type": "git",
@@ -23,6 +22,9 @@
     "node-sass": "^6.0.1"
   },
   "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
     "lite-server": "^2.6.1"
   }
 }

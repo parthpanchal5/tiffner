@@ -1,5 +1,10 @@
-$background-color: orange;
+$background-color: #503217;
+$fonts: 'Sen', sans-serif;
 
+* {
+	font-family: $fonts;
+	color: $background-color;
+}
 .container {
 	background: $background-color;
 }
